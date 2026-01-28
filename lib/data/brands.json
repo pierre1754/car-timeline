@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Peugeot",
+    "logoPath": "brands/peugeot.svg"
+  },
+  {
+    "name": "BMW",
+    "logoPath": "brands/bmw.svg"
+  }
+]
