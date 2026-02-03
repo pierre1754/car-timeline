@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+/* https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4 */
+
 :root {
   --background: #f2e9e4;
   --foreground: #22223b;
