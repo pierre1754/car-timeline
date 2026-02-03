@@ -1,9 +1,11 @@
 [
   {
+    "id": "peugeot",
     "name": "Peugeot",
     "logoPath": "brands/peugeot.svg"
   },
   {
+    "id": "bmw",
     "name": "BMW",
     "logoPath": "brands/bmw.svg"
   }
