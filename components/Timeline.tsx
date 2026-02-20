@@ -22,7 +22,7 @@ export default function Timeline({ models, brandName }: Props) {
       <div className="flex flex-col gap-16">
         {models.map((model, index) => (
           <TimelineItem
-            key={model.name}
+            key={`${model.name}-gen${model.generation ?? 0}-${model.facelift ? "facelift" : "base"}`}
             model={model}
             brandName={brandName}
             index={index}
