@@ -1,5 +1,6 @@
 [
   {
+    "id": "203-gen-1",
     "name": "203",
     "generation": 1,
     "releaseDate": "1948",
@@ -7,69 +8,206 @@
     "imagePath": ""
   },
   {
+    "id": "403-gen-1",
     "name": "403",
     "generation": 1,
     "releaseDate": "1955",
     "endDate": "1966",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Berline" },
+      { "type": "Cabriolet" },
+      { "type": "Break" }
+    ],
+    "engines": [
+      { "name": "1.5", "fuelType": "petrol", "power": 58 },
+      { "name": "1.5 Diesel", "fuelType": "diesel", "power": 40 }
+    ]
   },
   {
+    "id": "404-gen-1",
     "name": "404",
     "generation": 1,
     "releaseDate": "1960",
     "endDate": "1975",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Berline" },
+      { "type": "Cabriolet" },
+      { "type": "Break" },
+      { "type": "Coupé" }
+    ],
+    "engines": [
+      { "name": "1.6", "fuelType": "petrol", "power": 72 },
+      { "name": "1.9 Diesel", "fuelType": "diesel", "power": 58 }
+    ]
   },
   {
+    "id": "504-gen-1",
     "name": "504",
     "generation": 1,
     "releaseDate": "1968",
     "endDate": "1983",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Berline" },
+      { "type": "Cabriolet" },
+      { "type": "Break" },
+      { "type": "Coupé" }
+    ],
+    "engines": [
+      { "name": "1.8", "fuelType": "petrol", "power": 97 },
+      { "name": "2.0", "fuelType": "petrol", "power": 106 },
+      { "name": "2.0 Diesel", "fuelType": "diesel", "power": 70 },
+      { "name": "2.3 Diesel", "fuelType": "diesel", "power": 65 }
+    ]
   },
   {
+    "id": "205-gen-1",
     "name": "205",
     "generation": 1,
     "releaseDate": "1983",
     "endDate": "1998",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "3-door" },
+      { "type": "5-door" },
+      { "type": "Cabriolet" }
+    ],
+    "engines": [
+      { "name": "1.0", "fuelType": "petrol", "power": 45 },
+      { "name": "1.1", "fuelType": "petrol", "power": 54 },
+      { "name": "1.4", "fuelType": "petrol", "power": 75 },
+      { "name": "1.6 GTi", "fuelType": "petrol", "power": 105 },
+      { "name": "1.9 GTi", "fuelType": "petrol", "power": 130 },
+      { "name": "1.7 Diesel", "fuelType": "diesel", "power": 60 }
+    ]
   },
   {
+    "id": "405-gen-1",
     "name": "405",
     "generation": 1,
     "releaseDate": "1987",
     "endDate": "1997",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Berline" },
+      { "type": "Break" }
+    ],
+    "engines": [
+      { "name": "1.4", "fuelType": "petrol", "power": 75 },
+      { "name": "1.6", "fuelType": "petrol", "power": 89 },
+      { "name": "1.8", "fuelType": "petrol", "power": 107 },
+      { "name": "1.9 16v", "fuelType": "petrol", "power": 160 },
+      { "name": "1.9 Diesel", "fuelType": "diesel", "power": 68 },
+      { "name": "1.9 TD", "fuelType": "diesel", "power": 90 }
+    ]
   },
   {
+    "id": "206-gen-1",
     "name": "206",
     "generation": 1,
     "releaseDate": "1998",
     "endDate": "2012",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "3-door" },
+      { "type": "5-door" },
+      { "type": "SW" },
+      { "type": "CC" }
+    ],
+    "engines": [
+      { "name": "1.1", "fuelType": "petrol", "power": 60 },
+      { "name": "1.4", "fuelType": "petrol", "power": 75 },
+      { "name": "1.6", "fuelType": "petrol", "power": 109 },
+      { "name": "2.0 S16", "fuelType": "petrol", "power": 136 },
+      { "name": "2.0 RC", "fuelType": "petrol", "power": 177 },
+      { "name": "1.4 HDi", "fuelType": "diesel", "power": 70 },
+      { "name": "2.0 HDi", "fuelType": "diesel", "power": 90 }
+    ]
   },
   {
+    "id": "307-gen-1",
     "name": "307",
     "generation": 1,
     "releaseDate": "2001",
     "endDate": "2008",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "3-door" },
+      { "type": "5-door" },
+      { "type": "SW" },
+      { "type": "CC" }
+    ],
+    "engines": [
+      { "name": "1.4", "fuelType": "petrol", "power": 88 },
+      { "name": "1.6", "fuelType": "petrol", "power": 110 },
+      { "name": "2.0", "fuelType": "petrol", "power": 140 },
+      { "name": "1.4 HDi", "fuelType": "diesel", "power": 70 },
+      { "name": "1.6 HDi", "fuelType": "diesel", "power": 110 },
+      { "name": "2.0 HDi", "fuelType": "diesel", "power": 136 }
+    ]
   },
   {
+    "id": "207-gen-1",
     "name": "207",
     "generation": 1,
     "releaseDate": "2006",
     "endDate": "2014",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "3-door" },
+      { "type": "5-door" },
+      { "type": "SW" },
+      { "type": "CC" }
+    ],
+    "engines": [
+      { "name": "1.4 VTi", "fuelType": "petrol", "power": 95 },
+      { "name": "1.6 VTi", "fuelType": "petrol", "power": 120 },
+      { "name": "1.6 THP 150", "fuelType": "petrol", "power": 150 },
+      { "name": "1.6 THP 175", "fuelType": "petrol", "power": 175 },
+      { "name": "1.4 HDi", "fuelType": "diesel", "power": 70 },
+      { "name": "1.6 HDi 90", "fuelType": "diesel", "power": 90 },
+      { "name": "1.6 HDi 110", "fuelType": "diesel", "power": 110 }
+    ]
   },
   {
+    "id": "308-gen-1",
     "name": "308",
     "generation": 1,
     "releaseDate": "2007",
     "endDate": "2014",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "3-door" },
+      { "type": "5-door" },
+      { "type": "SW" },
+      { "type": "CC" }
+    ],
+    "engines": [
+      { "name": "1.4 VTi", "fuelType": "petrol", "power": 95 },
+      { "name": "1.6 VTi", "fuelType": "petrol", "power": 120 },
+      { "name": "1.6 THP 150", "fuelType": "petrol", "power": 150 },
+      { "name": "1.6 THP 175", "fuelType": "petrol", "power": 175 },
+      { "name": "2.0", "fuelType": "petrol", "power": 143 },
+      { "name": "1.6 HDi 90", "fuelType": "diesel", "power": 90 },
+      { "name": "1.6 HDi 110", "fuelType": "diesel", "power": 110 },
+      { "name": "2.0 HDi 136", "fuelType": "diesel", "power": 136 }
+    ],
+    "facelifts": [
+      {
+        "releaseDate": "2011",
+        "addedEngines": [
+          { "name": "1.6 THP 155", "fuelType": "petrol", "power": 155 },
+          { "name": "2.0 THP 200", "fuelType": "petrol", "power": 200 },
+          { "name": "1.6 HDi 112", "fuelType": "diesel", "power": 112 }
+        ],
+        "removedEngines": ["1.4 VTi", "1.6 THP 150", "1.6 THP 175", "2.0", "1.6 HDi 110"]
+      }
+    ]
   },
   {
+    "id": "308-gen-1-facelift",
     "name": "308",
     "generation": 1,
     "facelift": true,
@@ -78,27 +216,78 @@
     "imagePath": ""
   },
   {
+    "id": "208-gen-1",
     "name": "208",
     "generation": 1,
     "releaseDate": "2012",
     "endDate": "2019",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "3-door" },
+      { "type": "5-door" }
+    ],
+    "engines": [
+      { "name": "1.0 VTi", "fuelType": "petrol", "power": 68 },
+      { "name": "1.2 VTi", "fuelType": "petrol", "power": 82 },
+      { "name": "1.6 VTi", "fuelType": "petrol", "power": 120 },
+      { "name": "1.6 THP GTi", "fuelType": "petrol", "power": 208 },
+      { "name": "1.4 HDi", "fuelType": "diesel", "power": 68 },
+      { "name": "1.6 HDi", "fuelType": "diesel", "power": 92 }
+    ]
   },
   {
+    "id": "308-gen-2",
     "name": "308",
     "generation": 2,
     "releaseDate": "2013",
     "endDate": "2021",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Hatchback" },
+      { "type": "SW" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 110", "fuelType": "petrol", "power": 110 },
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "1.6 THP 205 GTi", "fuelType": "petrol", "power": 205 },
+      { "name": "1.6 BlueHDi 100", "fuelType": "diesel", "power": 100 },
+      { "name": "1.6 BlueHDi 120", "fuelType": "diesel", "power": 120 },
+      { "name": "2.0 BlueHDi 150", "fuelType": "diesel", "power": 150 },
+      { "name": "2.0 BlueHDi 180", "fuelType": "diesel", "power": 180 }
+    ],
+    "facelifts": [
+      {
+        "releaseDate": "2017",
+        "addedEngines": [
+          { "name": "1.6 PureTech 180 GTi", "fuelType": "petrol", "power": 180 },
+          { "name": "1.5 BlueHDi 100", "fuelType": "diesel", "power": 100 },
+          { "name": "1.5 BlueHDi 130", "fuelType": "diesel", "power": 130 }
+        ],
+        "removedEngines": ["1.6 THP 205 GTi", "1.6 BlueHDi 100", "1.6 BlueHDi 120"]
+      }
+    ]
   },
   {
+    "id": "2008-gen-1",
     "name": "2008",
     "generation": 1,
     "releaseDate": "2013",
     "endDate": "2020",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "SUV" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 82", "fuelType": "petrol", "power": 82 },
+      { "name": "1.2 PureTech 110", "fuelType": "petrol", "power": 110 },
+      { "name": "1.6 VTi", "fuelType": "petrol", "power": 120 },
+      { "name": "1.4 HDi", "fuelType": "diesel", "power": 68 },
+      { "name": "1.6 BlueHDi 100", "fuelType": "diesel", "power": 100 },
+      { "name": "1.6 BlueHDi 120", "fuelType": "diesel", "power": 120 }
+    ]
   },
   {
+    "id": "308-gen-2-facelift",
     "name": "308",
     "generation": 2,
     "facelift": true,
@@ -107,40 +296,114 @@
     "imagePath": ""
   },
   {
+    "id": "3008-gen-1",
     "name": "3008",
     "generation": 1,
     "releaseDate": "2016",
     "endDate": "2022",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "SUV" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "1.6 PureTech 165", "fuelType": "petrol", "power": 165 },
+      { "name": "1.6 PureTech 180", "fuelType": "petrol", "power": 180 },
+      { "name": "1.5 BlueHDi 130", "fuelType": "diesel", "power": 130 },
+      { "name": "2.0 BlueHDi 150", "fuelType": "diesel", "power": 150 },
+      { "name": "2.0 BlueHDi 180", "fuelType": "diesel", "power": 180 },
+      { "name": "Hybrid 225", "fuelType": "phev", "power": 225 },
+      { "name": "Hybrid 300", "fuelType": "phev", "power": 300 }
+    ]
   },
   {
+    "id": "508-gen-1",
     "name": "508",
     "generation": 1,
     "releaseDate": "2018",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Fastback" },
+      { "type": "SW" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "1.6 PureTech 180", "fuelType": "petrol", "power": 180 },
+      { "name": "1.6 PureTech 225", "fuelType": "petrol", "power": 225 },
+      { "name": "1.5 BlueHDi 130", "fuelType": "diesel", "power": 130 },
+      { "name": "2.0 BlueHDi 160", "fuelType": "diesel", "power": 160 },
+      { "name": "Hybrid 225", "fuelType": "phev", "power": 225 },
+      { "name": "Hybrid 360", "fuelType": "phev", "power": 360 }
+    ]
   },
   {
+    "id": "208-gen-2",
     "name": "208",
     "generation": 2,
     "releaseDate": "2019",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "5-door" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 75", "fuelType": "petrol", "power": 75 },
+      { "name": "1.2 PureTech 100", "fuelType": "petrol", "power": 100 },
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "1.5 BlueHDi 100", "fuelType": "diesel", "power": 100 },
+      { "name": "e-208", "fuelType": "electric", "power": 136 },
+      { "name": "e-208 GT", "fuelType": "electric", "power": 156 }
+    ]
   },
   {
+    "id": "2008-gen-2",
     "name": "2008",
     "generation": 2,
     "releaseDate": "2020",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "SUV" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 100", "fuelType": "petrol", "power": 100 },
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "1.5 BlueHDi 110", "fuelType": "diesel", "power": 110 },
+      { "name": "e-2008", "fuelType": "electric", "power": 136 },
+      { "name": "e-2008 GT", "fuelType": "electric", "power": 156 }
+    ]
   },
   {
+    "id": "308-gen-3",
     "name": "308",
     "generation": 3,
     "releaseDate": "2021",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "Hatchback" },
+      { "type": "SW" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 110", "fuelType": "petrol", "power": 110 },
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "1.5 BlueHDi 130", "fuelType": "diesel", "power": 130 },
+      { "name": "Hybrid 180", "fuelType": "phev", "power": 180 },
+      { "name": "Hybrid 225", "fuelType": "phev", "power": 225 }
+    ]
   },
   {
+    "id": "3008-gen-2",
     "name": "3008",
     "generation": 2,
     "releaseDate": "2022",
-    "imagePath": ""
+    "imagePath": "",
+    "bodyStyles": [
+      { "type": "SUV" }
+    ],
+    "engines": [
+      { "name": "1.2 PureTech 130", "fuelType": "petrol", "power": 130 },
+      { "name": "Hybrid 136", "fuelType": "hybrid", "power": 136 },
+      { "name": "Hybrid 195", "fuelType": "phev", "power": 195 },
+      { "name": "e-3008 210", "fuelType": "electric", "power": 210 },
+      { "name": "e-3008 320", "fuelType": "electric", "power": 320 }
+    ]
   }
 ]

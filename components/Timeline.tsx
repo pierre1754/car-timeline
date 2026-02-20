@@ -4,9 +4,10 @@ import TimelineItem from "@components/TimelineItem";
 type Props = {
   models: Model[];
   brandName: string;
+  brandId: string;
 };
 
-export default function Timeline({ models, brandName }: Props) {
+export default function Timeline({ models, brandName, brandId }: Props) {
   if (models.length === 0) {
     return (
       <p className="text-center opacity-40 italic py-20">
@@ -25,6 +26,7 @@ export default function Timeline({ models, brandName }: Props) {
             key={`${model.name}-gen${model.generation ?? 0}-${model.facelift ? "facelift" : "base"}`}
             model={model}
             brandName={brandName}
+            brandId={brandId}
             index={index}
           />
         ))}

@@ -1,20 +1,24 @@
 import { Model } from "@/lib/types/model";
 import { toRoman } from "@/lib/utils/roman";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {
   model: Model;
   brandName: string;
+  brandId: string;
   index: number;
 };
 
-export default function TimelineItem({ model, brandName, index }: Props) {
+export default function TimelineItem({ model, brandName, brandId, index }: Props) {
   const isLeft = index % 2 === 0;
   const isFacelift = model.facelift === true;
+  const modelHref = `/brands/${brandId}/${isFacelift ? model.id.replace("-facelift", "") : model.id}`;
 
   const card = (
-    <div
-      className={`flex flex-col gap-2 ${isFacelift ? "w-64" : "w-80"} ${isLeft ? "items-end text-right" : "items-start text-left"}`}
+    <Link
+      href={modelHref}
+      className={`flex flex-col gap-2 ${isFacelift ? "w-64" : "w-80"} ${isLeft ? "items-end text-right" : "items-start text-left"} hover:opacity-70 transition-opacity`}
     >
       <div
         className={`w-full ${isFacelift ? "h-32" : "h-44"} bg-foreground/10 rounded-sm overflow-hidden flex items-center justify-center`}
@@ -61,7 +65,7 @@ export default function TimelineItem({ model, brandName, index }: Props) {
           {model.endDate ? ` – ${model.endDate}` : " – present"}
         </p>
       </div>
-    </div>
+    </Link>
   );
 
   return (

@@ -37,7 +37,7 @@ export default async function BrandPage({ params }: Props) {
         <p className="text-xl opacity-50 italic">Timeline</p>
       </div>
 
-      <Timeline models={models} brandName={brand.name} />
+      <Timeline models={models} brandName={brand.name} brandId={id} />
     </main>
   );
 }
