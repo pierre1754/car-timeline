@@ -1,6 +1,6 @@
 export type Model = {
   name: string;
-  releaseDate: Date;
-  endDate?: Date;
+  releaseDate: string;
+  endDate?: string;
   imagePath: string;
 };
