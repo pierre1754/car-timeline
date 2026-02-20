@@ -1,9 +1,8 @@
-import { useBrands } from "@/lib/hooks/useBrands";
+import { fetchBrands } from "@/lib/fetchers/brands";
 import BrandImage from "@components/BrandImage";
-import Image from "next/image";
 
-export default function Home() {
-  const brands = useBrands();
+export default async function Home() {
+  const brands = await fetchBrands();
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-[url('/images/background.png')] bg-cover">
@@ -11,13 +10,11 @@ export default function Home() {
         <h1 className="text-8xl uppercase font-bold">Select your car brand</h1>
 
         <ul className="flex flex-row gap-40">
-          {brands.then((brandsData) =>
-            brandsData.map((brand) => (
-              <li key={brand.id}>
-                <BrandImage brand={brand} />
-              </li>
-            )),
-          )}
+          {brands.map((brand) => (
+            <li key={brand.id}>
+              <BrandImage brand={brand} />
+            </li>
+          ))}
         </ul>
       </main>
     </div>

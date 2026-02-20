@@ -1,4 +1,4 @@
-import { useModels } from "@/lib/hooks/useModels";
+import { fetchModels } from "@/lib/fetchers/models";
 import brands from "@data/brands.json";
 import Timeline from "@components/Timeline";
 import Image from "next/image";
@@ -15,7 +15,7 @@ export default async function BrandPage({ params }: Props) {
 
   if (!brand) notFound();
 
-  const models = await useModels(id);
+  const models = await fetchModels(id);
 
   return (
     <main className="min-h-screen pb-24">
