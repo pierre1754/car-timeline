@@ -1,6 +1,6 @@
 import { fetchModels } from "@/lib/fetchers/models";
 import brands from "@data/brands.json";
-import Timeline from "@components/Timeline";
+import Timeline from "@components/timeline/Timeline";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";

@@ -1,5 +1,5 @@
 import { fetchBrands } from "@/lib/fetchers/brands";
-import BrandImage from "@components/BrandImage";
+import BrandImage from "@components/brand/BrandImage";
 
 export default async function Home() {
   const brands = await fetchBrands();

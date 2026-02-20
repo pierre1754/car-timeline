@@ -1,5 +1,5 @@
 import { Model } from "@/lib/types/model";
-import TimelineItem from "@components/TimelineItem";
+import TimelineItem from "@components/timeline/TimelineItem";
 
 type Props = {
   models: Model[];

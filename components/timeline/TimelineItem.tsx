@@ -1,5 +1,6 @@
 import { Model } from "@/lib/types/model";
 import { toRoman } from "@/lib/utils/roman";
+import Badge from "@components/ui/Badge";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -32,25 +33,19 @@ export default function TimelineItem({ model, brandName, brandId, index }: Props
             className="w-full h-full object-cover"
           />
         ) : (
-          <span
-            className={`${isFacelift ? "text-3xl" : "text-5xl"} opacity-10 font-bold`}
-          >
+          <span className={`${isFacelift ? "text-3xl" : "text-5xl"} opacity-10 font-bold`}>
             {model.name}
           </span>
         )}
       </div>
 
       <div>
-        <div
-          className={`flex items-center gap-2 ${isLeft ? "flex-row-reverse" : "flex-row"}`}
-        >
+        <div className={`flex items-center gap-2 ${isLeft ? "flex-row-reverse" : "flex-row"}`}>
           <h3 className={`${isFacelift ? "text-xl" : "text-2xl"} font-bold`}>
             {brandName} {model.name}
           </h3>
           {isFacelift && (
-            <span className="text-xs uppercase tracking-widest border border-foreground/30 px-2 py-0.5 rounded-sm opacity-60">
-              Facelift
-            </span>
+            <Badge className="text-xs px-2 py-0.5">Facelift</Badge>
           )}
         </div>
 

@@ -1,0 +1,14 @@
+type Props = {
+  children: React.ReactNode;
+  className?: string;
+};
+
+export default function Badge({ children, className = "" }: Props) {
+  return (
+    <span
+      className={`uppercase tracking-widest border border-foreground/30 rounded-sm opacity-60 ${className}`}
+    >
+      {children}
+    </span>
+  );
+}
