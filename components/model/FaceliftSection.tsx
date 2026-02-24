@@ -1,5 +1,6 @@
 import { FacelifChanges } from "@/lib/types/model";
 import EngineList from "@components/model/EngineList";
+import Section from "@components/ui/Section";
 
 type Props = {
   facelift: FacelifChanges;
@@ -12,11 +13,11 @@ export default function FaceliftSection({ facelift }: Props) {
   if (!hasChanges) return null;
 
   return (
-    <div className="flex flex-col gap-4 border-l-2 border-foreground/20 pl-5">
-      <h2 className="text-xs uppercase tracking-widest opacity-40">
-        Facelift — {facelift.releaseDate}
-      </h2>
-
+    <Section
+      title={`Facelift — ${facelift.releaseDate}`}
+      gap="gap-4"
+      className="border-l-2 border-foreground/20 pl-5"
+    >
       {facelift.addedEngines && facelift.addedEngines.length > 0 && (
         <div className="flex flex-col gap-2">
           <p className="text-sm font-bold uppercase tracking-wider opacity-50">Added</p>
@@ -34,6 +35,6 @@ export default function FaceliftSection({ facelift }: Props) {
           </div>
         </div>
       )}
-    </div>
+    </Section>
   );
 }

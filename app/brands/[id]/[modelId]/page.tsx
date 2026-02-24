@@ -3,10 +3,11 @@ import { toRoman } from "@/lib/utils/roman";
 import { groupEnginesByFuel } from "@/lib/utils/engines";
 import brands from "@data/brands.json";
 import Badge from "@components/ui/Badge";
+import BackLink from "@components/ui/BackLink";
+import Section from "@components/ui/Section";
+import Image from "next/image";
 import EngineList from "@components/model/EngineList";
 import FaceliftSection from "@components/model/FaceliftSection";
-import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 type Props = {
@@ -28,12 +29,7 @@ export default async function ModelPage({ params }: Props) {
   return (
     <main className="min-h-screen pb-24">
       <div className="max-w-2xl mx-auto px-8 pt-16">
-        <Link
-          href={`/brands/${id}`}
-          className="text-sm opacity-40 hover:opacity-100 transition-opacity"
-        >
-          ← Back to {brand.name}
-        </Link>
+        <BackLink href={`/brands/${id}`}>Back to {brand.name}</BackLink>
 
         <div className="mt-12 flex flex-col gap-6">
           {/* Image */}
@@ -76,8 +72,7 @@ export default async function ModelPage({ params }: Props) {
 
           {/* Body styles */}
           {model.bodyStyles && model.bodyStyles.length > 0 && (
-            <div className="flex flex-col gap-3">
-              <h2 className="text-xs uppercase tracking-widest opacity-40">Body styles</h2>
+            <Section title="Body styles">
               <div className="flex flex-wrap gap-2">
                 {model.bodyStyles.map((style) => (
                   <Badge key={style.type} className="text-sm px-3 py-1">
@@ -85,15 +80,14 @@ export default async function ModelPage({ params }: Props) {
                   </Badge>
                 ))}
               </div>
-            </div>
+            </Section>
           )}
 
           {/* Engines at launch */}
           {Object.keys(enginesByFuel).length > 0 && (
-            <div className="flex flex-col gap-4">
-              <h2 className="text-xs uppercase tracking-widest opacity-40">Engines at launch</h2>
+            <Section title="Engines at launch" gap="gap-4">
               <EngineList engines={model.engines ?? []} />
-            </div>
+            </Section>
           )}
 
           {/* Facelift changes */}
